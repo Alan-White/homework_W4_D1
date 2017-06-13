@@ -29,28 +29,10 @@ class Game
       return "rock wins"
     end
 
-
     if @hand1 == @hand2
       return "draw"
     end
       
   end
-
-
-
-
-
-
-  # def subtract
-  #   return @num1 - @num2
-  # end
-
-  # def multiply
-  #   return @num1 * @num2 
-  # end
-
-  # def divide
-  #   return @num1 / @num2
-  # end
 
 end

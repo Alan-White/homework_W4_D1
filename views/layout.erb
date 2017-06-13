@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alan's rock paper scissors</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<ul>
+    <li><a href="/home">Home</a></li>
+</ul>
+
+  <%= yield %>
+
+  <p>this paragraph and the one below are hard coded into the layout.erb file. </p>
+  <p> the large, bold text above is obtained via yield. The text that replaces yield in the browser is the text that lies between the ice-creams in the result file.</p>
+  <p>The text between the ice-creams in the result file is linked to the get funtion in controller.rb</p>
+
+</body>
+</html>
+<!-- sinatra makes yield look for erb files and inputs the code that's between the h1's -->
+<!-- <%=  %> type pe to get this-->
+ <!-- <%  %> type er to get this -->
